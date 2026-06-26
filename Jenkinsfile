@@ -1,7 +1,5 @@
 pipeline {
-    agent {
-        label 'built-in'
-    }
+    agent any
     environment {
         CLIENT_IMAGE = "leefninja/jenkins-client"
         SERVER_IMAGE = "leefninja/jenkins-server"
