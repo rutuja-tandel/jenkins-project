@@ -1,7 +1,7 @@
 function App() {
   return (
     <>
-      <h1>CI/CD Project</h1>
+      <h1>CI/CD Project check</h1>
     </>
   );
 }
